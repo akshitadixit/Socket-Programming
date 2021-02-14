@@ -1,2 +1,2 @@
-1. A basic structure ![img1](https://media.geeksforgeeks.org/wp-content/uploads/Socket_server.png) 
-2. A better structure ![img2](http://www.troubleshooters.com/codecorn/sockets/sockdiag.png)
+<img align="left" width="100" height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/Socket_server.png">
+<img align="left" width="300" height="100" src="http://www.troubleshooters.com/codecorn/sockets/sockdiag.png">
