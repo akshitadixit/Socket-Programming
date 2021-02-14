@@ -14,15 +14,15 @@
 | TCP | Transmission COntrol Protocol complements with the Internet Protocol and facilitates communication between two connected systems over the internet. TCP numbers each packet and reassembles them prior to handing them off to the application/server recipient |
 | UDP | User Datagram Protocol is a communications protocol that is primarily used for establishing low-latency and loss-tolerating connections between applications on the internet. It speeds up transmissions by enabling the transfer of data before an agreement is provided by the receiving party.
 | Packet Loss | Packet loss occurs when one or more packets of data travelling across a computer network fail to reach their destination. Packet loss is either caused by errors in data transmission, typically across wireless networks, or network congestion|
-| Port | |
-| Listening Socket | |
-| Echo | |
-| Address family | |
-| Host | |
-| IPv4| |
-| Loopback (interface) | |
-| DNS | |
-| Configuration | |
-| State | |
-| Blocking calls | |
+| Port | A port is a logical construct (or logical connection place) assigned to network processes so that they can be identified within the system|
+| Listening Socket | Conceptually, the listening socket creates a new socket (the “child” socket), and establishes the connection on it. The listening socket is then free to resume listening on the same port, while the child socket has an established connection with the client that is independent from its parent. This results in no read/write operations by the listening socket.|
+| Echo | It consists of a server which sends back whatever text the client sent. Used to check if connections have been succesfully established.|
+| Address family | (AF)An address family is normally comprised of a number of protocols, one per socket type. Each protocol is characterized by an abstract socket type.|
+| Host | A host is any computer connected to a network. The host is a versatile, multifunction computer; clients and servers are just programs that run on a host.|
+| IPv4| IPv4 stands for Internet Protocol version 4. It is the underlying technology that makes it possible for us to connect our devices to the web. Whenever a device accesses the Internet, it is assigned a unique, numerical IP address such as 99.48. 227.227.|
+| Loopback (interface) | The loopback device is a special, virtual network interface that your computer uses to communicate with itself. It is used mainly for diagnostics and troubleshooting, and to connect to servers running on the local machine.|
+| DNS | DNS stands for Domain Name System. The main function of DNS is to translate domain names into IP Addresses, which computers can understand.|
+| Configuration | A configuration of a system refers to the arrangement of each of its functional units, according to their nature, number and chief characteristics.|
+| State | The state of a socket determines which network operations will succeed, which operations will block, and which operations with will fail (the socket state even determines the error code). Sockets have a finite number of states|
+| Blocking calls | A "blocking" call "blocks" the program that calls it until it completes. Your program has to wait for it to do (whatever) before the next statement runs.|
 
